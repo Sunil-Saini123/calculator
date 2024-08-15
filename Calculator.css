@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color : aliceblue;
+}
+
+.container{
+  min-height : 40vh;
+  width :35vh;
+  background-color : black;
+  border-radius : 1rem;
+  padding : 1rem;
+  border : 1.4px black solid;
+}
+
+
+input{
+  background-color :lightgreen;
+  border : none;
+  height : 2.5rem;
+  width : 16.8rem;
+  border-radius: 0.2rem;
+  border : 1px black solid;
+  font-size : 1.2rem;
+  padding-left : 0.3rem;
+  margin-left: -0.65rem;
+}
+
+.button-box{
+  display : flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  width : 33vh;
+  height : 33vh;
+  background-color :#424549;
+  margin-left : -0.65rem;
+  margin-top : 0.5rem;
+  border-radius: 0.2rem;
+  border : 1px black solid;
+}
+button{
+  min-height : 6.3vh;
+  width : 7.3vh;  
+  margin-bottom: 0.2rem;
+  font-size : 1rem;
+  background-color : grey;
+  color : white;
+  box-shadow: 1px 1px 1px black;
+}
+
+#AC{
+  background-color:rgb(188, 61, 19);
+  
+  
+}
